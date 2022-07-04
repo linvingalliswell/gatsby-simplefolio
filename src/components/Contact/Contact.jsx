@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { cta, btn1, email1, btn2, email2 } = contact;
 
   return (
     <section id="contact">
@@ -17,14 +17,27 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-            >
-              {btn || "Let's Talk"}
-            </a>
+            <div>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta-btn cta-btn--resume"
+                href={email1 ? `mailto:${email1}` : 'https://github.com/cobidev/react-simplefolio'}
+              >
+                {btn1 || "Let's Talk"}
+              </a>
+            </div>
+            <br />
+            <div>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta-btn cta-btn--resume"
+                href={email2 ? `${email2}` : 'https://github.com/cobidev/react-simplefolio'}
+              >
+                {btn2 || "Let's Talk"}
+              </a>
+            </div>
           </div>
         </Fade>
       </Container>
