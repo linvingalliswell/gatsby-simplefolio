@@ -21,43 +21,26 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Kuan-You Lin (Yoyo) was born and raised in Taiwan. He moved to NYC at the year of 2021 and is currently pursuing a Master's degree in Information Systems at Cornell University and Technion, expected to graduate by May 2023. He maintains an exceptional performance on the computer sciene courses with 4.0 GPA.",
+    "Kuan-You Lin (Yoyo) was born and raised in Taiwan. He moved to NYC in the year 2021 and is currently pursuing a Master's degree in Information Systems at Cornell University and Technion, expected to graduate by May 2023. He maintains an exceptional performance in computer science courses with a 4.0 GPA.",
   paragraphTwo:
-    'He studied and worked passionately to provide professional solutions for both backend or frontend engineering problem. Right now, he is working as a software engineer intern at Circle, the issuer of USDC and EUROC, spending most of his time wrangling with TypeScript and Java, yielding production code.',
+    'He studied and worked passionately to provide professional solutions for both backend and frontend engineering problems. Currently, he is working as a software engineer intern at Circle, the issuer of USDC and EUROC, spending most of his time wrangling with TypeScript and Java, yielding production code.',
   paragraphThree:
-    'Kuan-You is actively looking for full-time junior developer positions in the US, and the highlight of his past experience and skills are concluded and enumerated in his most updated resume, which can be accessed via clicking the button below.',
+    'Kuan-You is actively looking for full-time junior developer positions in the US, and the highlight of his experience and skills are concluded and enumerated in his most updated resume, which can be accessed via clicking the button below.',
   resume: 'https://github.com/linvingalliswell/resume/raw/main/Resume-Kuan-You-Lin-Cornell23.pdf', // if no resume, the button will not show up
-  drive: 'https://drive.google.com/file/d/1QiidX3h1y3VC3znhMdG7grWC1aWPjfKS/view?usp=sharing',
+  drive: 'https://github.com/linvingalliswell/resume/blob/main/Resume-Kuan-You-Lin-Cornell23.pdf',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'projects/TheCampaign.png',
+    title: 'TheCampaign',
+    info: 'TheCampaign is a pure web3 crowdsourcing platform, where the users can launch their campaigns in the form of smart contracts or participate in the exisiting open campaigns by contribution on Ethereum.',
+    info2:
+      'TheCampaign is created by using: typescript, react.js, next.js, react-semantic-ui, solc, ganache, truffle, solidity, web3, eslint, mocha, react-i18next.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/linvingalliswell/the-campaigns-v2', // if no repo, the button will not show up
   },
 ];
 
